@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# 노마드코더 리액트 기초
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
