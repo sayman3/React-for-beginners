@@ -15,8 +15,8 @@ function Home(){
         getMovies()
     }, [])
     return (<>
-        {loading ? <h1>Loading...</h1>: <div>{movies.map((movie, index)=>{
-            return <Movie key={index} coverImg={movie.medium_cover_image} title={movie.title} summary={movie.summary} genres={movie.genres}></Movie>
+        {loading ? <h1>Loading...</h1>: <div className="main">{movies.map((movie, index)=>{
+            return <Movie key={index} id={movie.id} coverImg={movie.medium_cover_image} title={movie.title} summary={movie.summary} genres={movie.genres}></Movie>
         })}
         </div>}
 

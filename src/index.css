@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Do Hyeon', sans-serif;
+    color: #8ecae6;
+}
+body {
+    background-color: #03071e;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.navbar {
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 100vw;
+    text-align: center;
+    background-color: #023047;
+}
+
+.navbar h1{
+    font-size: 3rem;
+    color: #fb8500;
+}
+
+.navbar .A {
+    font-size: 2rem;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.item .img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.item .img img:hover {
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+.item h2 {
+    margin: 10px 0px 20px 0px;
+    color: #ffb703;
+    font-size: 1.5rem;
+}
+
+.item p {
+    margin: 15px 0px;
+}
+
+.item .genre {
+    color: #219ebc;
+}
+.detail-wrapper {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.detail {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.detail h2 {
+    margin: 10px 0px 50px 0px;
+    color: #ffb703;
+    font-size: 2rem;
+    text-align: center;
+}
+.detail p {
+    color: #219ebc;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+.detail .genres {
+    color: #219ebc;
+}
+
+.detail-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.detail-box>div {
+    flex: 1;
+}
+
+@media screen and (min-width: 480px){
+    .item {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .item {
+        width: 22%;
+    }
+}
